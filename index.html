@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOS CALCULATOR COPY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+  <p class="js-result css-result"></p>
+
+  <div class="calculator">
+    <div class="row">
+      <button class="css-top-symbols css-clear-icon" onclick="clearResult()">AC</button>
+      <button class="css-top-symbols css-plus-minus-icon" onclick="appendCharacter('-')">+/-</button>
+      <button class="css-top-symbols css-percent-icon" onclick="appendCharacter('%')">
+        <i class="fas fa-percent"></i>
+      </button>
+      <button class="css-common-symbols css-symbol-divide" onclick="appendCharacter('/')">
+        <i class="fa fa-divide"></i>
+      </button>
+    </div>
+
+    <div class="row">
+      <button class="css-common-button" onclick="appendCharacter('7')">7</button>
+      <button class="css-common-button" onclick="appendCharacter('8')">8</button>
+      <button class="css-common-button" onclick="appendCharacter('9')">9</button>
+      <button class="css-common-symbols css-symbol-multiply" onclick="appendCharacter('*')">
+        <i class="fa fa-multiply"></i>
+      </button>
+    </div>
+
+    <div class="row">
+      <button class="css-common-button" onclick="appendCharacter('4')">4</button>
+      <button class="css-common-button" onclick="appendCharacter('5')">5</button>
+      <button class="css-common-button" onclick="appendCharacter('6')">6</button>
+      <button class="css-common-symbols css-symbol-minus" onclick="appendCharacter('-')">
+        <i class="fa fa-minus"></i>
+      </button>
+    </div>
+
+    <div class="row">
+      <button class="css-common-button" onclick="appendCharacter('1')">1</button>
+      <button class="css-common-button" onclick="appendCharacter('2')">2</button>
+      <button class="css-common-button" onclick="appendCharacter('3')">3</button>
+      <button class="css-common-symbols css-symbol-plus" onclick="appendCharacter('+')">
+        <i class="fa fa-plus"></i>
+      </button>
+    </div>
+
+    <div class="row">
+      <button class="css-common-button css-button-0" onclick="appendCharacter('0')">0</button>
+      <button class="css-common-button" onclick="appendCharacter('.')">.</button>
+      <button class="css-common-symbols css-symbol-equals" onclick="evaluateExpression()">
+        <i class="fa fa-equals"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
