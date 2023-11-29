@@ -4,4 +4,4 @@
 
 
 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD52DG5MOOlnUcVJ0bHReB7BtugphLX9Ba9A&usqp=CAU
+![bg-2](https://github.com/festussabu/iosCalculator/assets/147224415/e6e571ad-b472-4a58-904c-117d96f19260)
