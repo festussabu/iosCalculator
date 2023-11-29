@@ -4,4 +4,4 @@
 
 
 
-![bg-2](https://github.com/festussabu/iosCalculator/assets/147224415/e6e571ad-b472-4a58-904c-117d96f19260)
+![download](https://github.com/festussabu/iosCalculator/assets/147224415/89fd3fb7-7be5-41e3-9ad7-a29c64ea38d2)
