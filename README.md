@@ -4,4 +4,4 @@
 
 
 
-https://play.google.com/store/apps/details?id=com.AppAuxin.ios_calculator&hl=gu&gl=US
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD52DG5MOOlnUcVJ0bHReB7BtugphLX9Ba9A&usqp=CAU
